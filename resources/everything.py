@@ -231,7 +231,7 @@ def main():
         importlib.import_module(sys.argv[2], package='..drawings')
 
     turtle.done()
-    return os.EX_OK
+    return 0
 
 
 if __name__ == "__main__":
